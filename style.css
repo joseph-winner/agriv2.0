@@ -26,11 +26,15 @@
 }
 
 .inventory-row img{
-    width: 5rem;
+    width: 8rem;
+}
+
+.inventory-desc h5{
+    font-size: 18px;
 }
 .inventory-desc p{
-    font-size: 10px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 500;
     opacity: 0.5;
     padding-right: 0.3rem;
 }
@@ -40,8 +44,20 @@
 }
 
 .inventory-row{
+    position: relative;
     margin-bottom: 0.6rem;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* background-color: #c5fbc5; */
+    margin-left: 0.5rem;
+    /* color: #fff; */
+}
+
+.inventory-row .more-invent-photos{
+    position: absolute;
+    left: 5.8rem;
+    bottom: 0.1rem;
+    background-color: #fff;
+    opacity: 1;
 }
 
 @media(max-width:767px){
